@@ -135,7 +135,6 @@
 4. 杆状体肌病
 5. 肢带型肌营养不良
 6. ck高
-7. 
 ## 自闭症/孤独症谱系障碍
 1. 自闭症-基因列表
    自闭症基因数据库[SFARI](https://gene.sfari.org/database/human-gene/)
