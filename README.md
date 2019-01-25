@@ -143,7 +143,7 @@
 3. **除耳聋等需选择频率很高的致病位点外，避免选择频率很高的SNP**
 4. **有的基因在UTR区突变会导致疾病，注意对特定基因不要过滤掉UTR区变异**
 5. **有的基因同义变异会致病，注意关注HGMD注释，例如<span style='color:green'>PLA2G6基因</span>**
-6. 如果需要评价位点致病性的强弱，可根据ACMG评分指标，二代数据给出的评价因没有查询文献所以不准确,详见[ACMG指南中文版](http://acmg.cbgc.org.cn/doku.php?id=start)
+6. **如果需要评价位点致病性的强弱，可根据ACMG评分指标，二代数据给出的评价因没有查询文献所以不准确,详见[ACMG指南中文版](http://acmg.cbgc.org.cn/doku.php?id=start)**
 
 ---
 
