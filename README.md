@@ -90,16 +90,27 @@
 
 4. 尽量不选择无明确关联疾病的基因。**有的基因对应疾病有英文名称，没有中文翻译，注意不要略过**
 
-5. 有些基因经常会报出很多位点，如非特殊新生或复合杂合，尽量不选这些位点，例如PSPH,HERC2,FLG,TTN,FANCD2,DSPP,KMT2C,MUC5B等
+5. 有些基因经常会报出很多位点，如非特殊新生或复合杂合，尽量不选这些位点
+
+   ```
+   例如PSPH,HERC2,FLG,TTN,FANCD2,DSPP,KMT2C,MUC5B等
+   ```
 
 6. 有些具有动态突变基因的会有正常范围内的三核苷酸重复数增加或减少呈现出缺失或者插入`CAGCAG`形式的变异，不选择这类位点，
+
+   ```
    例如ATXN1,CACNA1A,HTT,DMPK,RAI1,SMARCA2,HECR2,FLG等
+   ```
 
 7. 如果过滤数据中找不到重点关注基因，再看未过滤数据做最终确认
 
    > 须是重点客户的关注的特别明确的基因没有找到变异再看未过滤数据
 
-8. 尽量不选择splicing（除+1，-1特殊位置外）,UTR（除特殊基因外）,intron的位点，除非是写明重点关注的基因，或**UTR区致病的特殊基因，包括SOX9,AR,SOX3,SHH,ATOH7,ANKRD26,AXIN1,DIP2B,PITX1,PTF1A,ZNF713,HCFC1,PDE6H,IFITM5,EIF4A3,POMP,DHRS3,PIGM,ENG等**
+8. 尽量不选择splicing（除+1，-1特殊位置外）,UTR（除特殊基因外）,intron的位点，除非是写明重点关注的基因或UTR区致病的特殊基因
+
+   ```
+   UTR区致病的基因包括SOX9,AR,SOX3,SHH,ATOH7,ANKRD26,AXIN1,DIP2B,PITX1,PTF1A,ZNF713,HCFC1,PDE6H,IFITM5,EIF4A3,POMP,DHRS3,PIGM,ENG等
+   ```
 
 9. 如果写明的症状没有可选的基因列表，通过[诊断工具](http://192.168.100.120:54321/)、[OMIM](http://www.omim.org/)、[HPO](http://compbio.charite.de/hpoweb/showterm?id=HP:0000246#id=HP_0000246)、[FindZebra](http://www.findzebra.com/)、[Phenomizer](http://compbio.charite.de/phenomizer/)、[罕见病辅助诊断系统](https://www.genomcan.cn/#/)、[Genotype phenotype search](https://www.diseasegps.org/)等工具查询到基因列表与患者基因列表做对比。
 
@@ -235,11 +246,13 @@
 2. 牛奶咖啡斑-基因列表
 ## ALS+CMT+HSP
 
-   ```
    - 腱反射含义:
-   0 反射消失；+ 反射减退：肌肉收缩存在，但无相应关节活动；++ 反射正常：肌肉收缩并导致关节活动
-   +++ 反射增强，可为正常或病理状况；++++ 反射亢进并伴有阵挛，为病理状况
-   ```
+        - 0 反射消失；
+        - +反射减退：肌肉收缩存在，但无相应关节活动；
+        - ++ 反射正常：肌肉收缩并导致关节活动；
+        - +++ 反射增强，可为正常或病理状况；
+        - +++ 反射亢进并伴有阵挛，为病理状况
+
    * 单纯型HSP:单纯型HSP患者会出现渐进性行走困难，通常需要拐杖、助行器或者轮椅辅助行走，偶见尿急或下肢感觉障碍的报道。
      神经系统检查可发现进行性下肢无力、痉挛及下肢轻度振动减弱或关节位置敏感，髂腰肌、腘绳肌和胫骨前肌的痉挛和无力表现尤为明显。
      痉挛和下肢无力在不同患者中的表现也不尽相同，有些患者表现为痉挛状态但无明显的下肢无力表现，有些患者既有痉挛也有明显的下肢无力表现。
